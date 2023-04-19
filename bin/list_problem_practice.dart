@@ -89,16 +89,16 @@
 // }
 ///Here is the another one which was helped by the internet. The sublist method
 //
-// void main() {
-//   print(listOfNumber.sublist(0, 3));
-//   print(listOfNumber.sublist(listOfNumber.length - 3));
-//   print(listOfNumber.sublist(0, 3).reduce((value, element) => value + element) +
-//       listOfNumber
-//           .sublist(listOfNumber.length - 3)
-//           .reduce((value, element) => value + element));
-// }
-//
-// List listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+void main() {
+  print(listOfNumber.sublist(0, 3));
+  print(listOfNumber.sublist(listOfNumber.length - 3));
+  print(listOfNumber.sublist(0, 3).reduce((value, element) => value + element) +
+      listOfNumber
+          .sublist(listOfNumber.length - 3)
+          .reduce((value, element) => value + element));
+}
+
+List listOfNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 ///Write a Dart program that takes a list of integers as input and prints the average of the even numbers in the list.
 
